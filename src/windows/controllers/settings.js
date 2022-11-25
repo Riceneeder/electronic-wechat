@@ -29,7 +29,7 @@ class SettingsWindow {
       frame: true,
       alwaysOnTop: true,
       icon: 'assets/icon.png',
-      titleBarStyle: 'hidden',
+      titleBarStyle: 'default',
       webPreferences: {
         nodeIntegration: true,
         contextIsolation: false,

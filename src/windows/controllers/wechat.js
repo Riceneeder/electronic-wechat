@@ -72,7 +72,7 @@ class WeChatWindow {
       frame: AppConfig.readSettings('frame') !== 'on',
       autoHideMenuBar: true,
       icon: path.join(__dirname, '../../../assets/icon.png'),
-      titleBarStyle: 'hidden-inset',
+      titleBarStyle: 'default',
       webPreferences: {
         javascript: true,
         plugins: true,
